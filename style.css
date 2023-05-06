@@ -1,0 +1,162 @@
+@import url("https://fonts.googleapis.com/css2?family=Poppins:wght@400;500;600;700&display=swap");
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+body {
+  font-family: "Poppins", sans-serif;
+  font-size: 18px;
+  color: #313131;
+  background-color: #f2f2f2;
+  height: 100vh;
+}
+section {
+  padding: 40px 120px;
+}
+h1 {
+  font-size: 48px;
+  color: #227c9d;
+}
+h2 {
+  font-size: 32px;
+  color: #fe6d73;
+  margin-bottom: 10px;
+}
+h4 {
+  margin-bottom: 10px;
+}
+
+p {
+  text-align: justify;
+  margin-bottom: 8px;
+}
+img {
+  height: 350px;
+  width: auto;
+  border-radius: 15px;
+}
+.main-area {
+  display: flex;
+  margin-top: 40px;
+}
+.hero-section {
+  display: flex;
+  flex-direction: column;
+}
+.main-text {
+  margin-bottom: 20px;
+}
+.main-image {
+  padding-left: 32px;
+  text-align: right;
+}
+
+a {
+  color: #227c9d;
+}
+
+.steps > ul {
+  padding-left: 40px;
+  color: #fe6d73;
+}
+table,
+th,
+td {
+  border: 1px solid #313131;
+  border-collapse: collapse;
+  padding: 15px;
+  text-align: left;
+}
+table th {
+  background-color: #227c9d;
+  color: white;
+}
+article {
+  margin-top: 20px;
+}
+.step-1 {
+  display: flex;
+  flex-direction: row;
+}
+.step-1-2 {
+  display: flex;
+  flex-direction: column;
+}
+.step-2-3 {
+  display: flex;
+  flex-direction: column;
+}
+.fig-2 {
+  padding-right: 32px;
+}
+.img-step-2 {
+  margin-bottom: 8px;
+}
+.step-2 {
+  display: flex;
+}
+.images {
+  display: flex;
+  flex-direction: column;
+}
+.fig-2 > div > img,
+.fig-2 > img {
+  width: auto;
+  height: 500px;
+}
+.sub-text-1 {
+  margin-bottom: 20px;
+}
+.sub-text-2 {
+  margin-bottom: 20px;
+}
+.newsletter {
+  margin-top: 40px;
+}
+form > div {
+  display: flex;
+  flex-direction: column;
+}
+form > div > div > input {
+  padding: 8px 15px;
+  border-radius: 5px;
+  margin-top: 8px;
+  width: 250px;
+  height: 50px;
+  border: 2px solid #313131;
+}
+
+button.btn {
+  border: none;
+  background-color: #48cfae;
+  color: #f2f2f2;
+  padding: 20px 0px;
+  text-align: center;
+  text-decoration: none;
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.2);
+  font-size: 20px;
+  cursor: pointer;
+  border-radius: 15px;
+  margin: 20px 0px;
+  width: 250px;
+  font-weight: 600;
+}
+.btn:hover {
+  background-color: #159e7b;
+  transition: 0.7s;
+}
+
+.fname,
+.phone,
+.email {
+  margin: 10px 0px;
+}
+
+footer {
+  margin-top: 20px;
+  background-color: #313131;
+  color: #f2f2f2;
+  padding: 8px;
+  text-align: center;
+}
